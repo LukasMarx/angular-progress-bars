@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-progress-indication';
+  progress = 0;
+
+  ngOnInit(){
+    
+    setInterval(() => {
+      if(this.progress > 100){
+        this.progress = 0;
+      }else{
+        this.progress++;
+      }
+    }, 1000)
+  }
 }

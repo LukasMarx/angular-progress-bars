@@ -19,4 +19,4 @@ import { SvgbarComponent } from './svgbar/svgbar.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
