@@ -1,13 +1,14 @@
-<svg viewBox="0, 0, 100, 100" >
+<svg viewBox="0, 0, 100, 100">
   <circle
-      class="progress-circle"
-      stroke-width="6"
-      [style.strokeDasharray]="circumference"
-      [style.strokeDashoffset]="strokeDashoffset"
-      fill="transparent"
-      stroke="blueviolet"
-      r="47"
-      cx="50"
-      cy="50"/>
-      <text x="50" y="50"  class="text" text-anchor="middle">{{(value) + '%'}}</text>
+    class="progress-circle"
+    stroke-width="6"
+    [style.strokeDasharray]="circumference"
+    [style.strokeDashoffset]="strokeDashoffset"
+    fill="transparent"
+    stroke="#DD0031"
+    r="47"
+    cx="50"
+    cy="50"
+  />
+  <text x="50" y="50" class="text" text-anchor="middle">{{ value + '%' }}</text>
 </svg>

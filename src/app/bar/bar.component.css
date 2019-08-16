@@ -1,10 +1,10 @@
-.bar{
-    background-color: blueviolet;
-    height: 100%;
+.bar {
+  background-color: #dd0031;
+  height: 100%;
 }
 
-:host{
-    display: block;
-    height: 50px;
-    width: 500px
+:host {
+  display: block;
+  height: 50px;
+  width: 500px;
 }
