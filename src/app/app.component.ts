@@ -8,14 +8,13 @@ import { Component } from '@angular/core';
 export class AppComponent {
   progress = 0;
 
-  ngOnInit(){
-    
+  ngOnInit() {
     setInterval(() => {
-      if(this.progress > 100){
+      if (this.progress >= 100) {
         this.progress = 0;
-      }else{
+      } else {
         this.progress++;
       }
-    }, 1000)
+    }, 1000);
   }
 }
